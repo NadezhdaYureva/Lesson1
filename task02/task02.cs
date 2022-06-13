@@ -19,6 +19,5 @@ if (max < numberInt3)
 {
     max = numberInt3;
 }
-
 Console.WriteLine("Максимальное число " + max);
 
