@@ -20,6 +20,5 @@ if (numberInt1 < numberInt2) {
 }
 
 if (numberInt1 == numberInt2) {
-    
     Console.WriteLine("Первое число равно второму");
 }
