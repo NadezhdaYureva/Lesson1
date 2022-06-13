@@ -1,4 +1,5 @@
 ﻿// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
 Console.Write("Введите число ");
 string number = Console.ReadLine();
 int numberInt = int.Parse(number);
