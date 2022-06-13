@@ -20,5 +20,5 @@ if (max < numberInt3)
     max = numberInt3;
 }
 
-Console.WriteLine("максимальное число " + max);
+Console.WriteLine("Максимальное число " + max);
 
