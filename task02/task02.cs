@@ -8,6 +8,17 @@ string numberString3 = Console.ReadLine();
 int numberInt1 = int.Parse(numberString1);
 int numberInt2 = int.Parse(numberString2);
 int numberInt3 = int.Parse(numberString3);
-int max = 0;
+int max = numberInt1;
 
+if (max < numberInt2) 
+{
+    max = numberInt2;
+}
+
+if (max < numberInt3) 
+{
+    max = numberInt3;
+}
+
+Console.WriteLine("максимальное число " + max);
 
